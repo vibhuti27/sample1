@@ -1,0 +1,17 @@
+{
+        "service": {
+                "status": "QA",
+                "serviceType": "app",
+                "description": "DONOTUSE",
+                "allowDowngrade": "yes",
+                "build_description": "JENKINS-WILL-CHANGE-THIS",
+                "serviceStatusItems": "1,6,11",
+                "category": "Uncategorized",
+                "name": "beech",
+                "mustApprove": "yes",
+                "buildNo": "JENKINS-WILL-CHANGE-THIS",
+                "version": "2.0",
+                "globalTemplate": "",
+                "is_decommissioned": 0
+        }
+ }
