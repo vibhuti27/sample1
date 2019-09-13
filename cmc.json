@@ -13,5 +13,2159 @@
                 "version": "2.0",
                 "globalTemplate": "",
                 "is_decommissioned": 0
-        }
- }
+        },
+        "siteResources": [
+                {
+                        "forOperations": 1,
+                        "description": "",
+                        "exampleValue": "",
+                        "optional": "",
+                        "forceInheritDefaultValue": "0",
+                        "name": "Beech",
+                        "level": "Box",
+                        "itemAliasName": "",
+                        "enumerateValues": "",
+                        "supportArray": "false",
+                        "jsonSchema": "",
+                        "attributes": [
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "Dialpeers",
+                                        "level": "Box",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [
+                                                {
+                                                        "forOperations": 1,
+                                                        "description": "",
+                                                        "exampleValue": "10.224.99.131",
+                                                        "optional": "",
+                                                        "forceInheritDefaultValue": "0",
+                                                        "name": "mediaSourceIP",
+                                                        "level": "Box",
+                                                        "itemAliasName": "",
+                                                        "enumerateValues": "",
+                                                        "supportArray": "false",
+                                                        "jsonSchema": "",
+                                                        "attributes": [],
+                                                        "type": "string"
+                                                },
+                                                {
+                                                        "forOperations": 1,
+                                                        "description": "",
+                                                        "exampleValue": "",
+                                                        "optional": "",
+                                                        "forceInheritDefaultValue": "0",
+                                                        "name": "Dialpeer_370110301",
+                                                        "level": "Box",
+                                                        "itemAliasName": "",
+                                                        "enumerateValues": "",
+                                                        "supportArray": "false",
+                                                        "jsonSchema": "",
+                                                        "attributes": [
+                                                                {
+                                                                        "forOperations": 1,
+                                                                        "description": "",
+                                                                        "exampleValue": "10.224.99.180",
+                                                                        "optional": "",
+                                                                        "forceInheritDefaultValue": "0",
+                                                                        "name": "sessionTargetNetworkId",
+                                                                        "level": "Box",
+                                                                        "itemAliasName": "",
+                                                                        "enumerateValues": "",
+                                                                        "supportArray": "false",
+                                                                        "jsonSchema": "",
+                                                                        "attributes": [],
+                                                                        "type": "string"
+                                                                },
+                                                                {
+                                                                        "forOperations": 1,
+                                                                        "description": "",
+                                                                        "exampleValue": "ipv4",
+                                                                        "optional": "",
+                                                                        "forceInheritDefaultValue": "0",
+                                                                        "name": "sessionTargetAddressType",
+                                                                        "level": "Box",
+                                                                        "itemAliasName": "",
+                                                                        "enumerateValues": "ipv4,dns",
+                                                                        "supportArray": "false",
+                                                                        "jsonSchema": "",
+                                                                        "attributes": [],
+                                                                        "type": "Enumerate(single choose support)"
+                                                                }
+                                                        ],
+                                                        "type": "tag"
+                                                },
+                                                {
+                                                        "forOperations": 1,
+                                                        "description": "",
+                                                        "exampleValue": "",
+                                                        "optional": "",
+                                                        "forceInheritDefaultValue": "0",
+                                                        "name": "DialpeerLoopBack",
+                                                        "level": "Box",
+                                                        "itemAliasName": "",
+                                                        "enumerateValues": "",
+                                                        "supportArray": "false",
+                                                        "jsonSchema": "",
+                                                        "attributes": [
+                                                                {
+                                                                        "forOperations": 1,
+                                                                        "description": "",
+                                                                        "exampleValue": "10.224.99.131",
+                                                                        "optional": "",
+                                                                        "forceInheritDefaultValue": "0",
+                                                                        "name": "sessionTargetNetworkId",
+                                                                        "level": "Box",
+                                                                        "itemAliasName": "",
+                                                                        "enumerateValues": "",
+                                                                        "supportArray": "false",
+                                                                        "jsonSchema": "",
+                                                                        "attributes": [],
+                                                                        "type": "string"
+                                                                },
+                                                                {
+                                                                        "forOperations": 1,
+                                                                        "description": "",
+                                                                        "exampleValue": "ipv4",
+                                                                        "optional": "",
+                                                                        "forceInheritDefaultValue": "0",
+                                                                        "name": "sessionTargetAddressType",
+                                                                        "level": "Box",
+                                                                        "itemAliasName": "",
+                                                                        "enumerateValues": "ipv4,dns",
+                                                                        "supportArray": "false",
+                                                                        "jsonSchema": "",
+                                                                        "attributes": [],
+                                                                        "type": "Enumerate(single choose support)"
+                                                                }
+                                                        ],
+                                                        "type": "tag"
+                                                },
+                                                {
+                                                        "forOperations": 1,
+                                                        "description": "",
+                                                        "exampleValue": "",
+                                                        "optional": "",
+                                                        "forceInheritDefaultValue": "0",
+                                                        "name": "Dialpeer_470100301",
+                                                        "level": "Box",
+                                                        "itemAliasName": "",
+                                                        "enumerateValues": "",
+                                                        "supportArray": "false",
+                                                        "jsonSchema": "",
+                                                        "attributes": [
+                                                                {
+                                                                        "forOperations": 1,
+                                                                        "description": "",
+                                                                        "exampleValue": "10.224.99.131",
+                                                                        "optional": "",
+                                                                        "forceInheritDefaultValue": "0",
+                                                                        "name": "sessionTargetNetworkId",
+                                                                        "level": "Box",
+                                                                        "itemAliasName": "",
+                                                                        "enumerateValues": "",
+                                                                        "supportArray": "false",
+                                                                        "jsonSchema": "",
+                                                                        "attributes": [],
+                                                                        "type": "string"
+                                                                },
+                                                                {
+                                                                        "forOperations": 1,
+                                                                        "description": "",
+                                                                        "exampleValue": "ipv4",
+                                                                        "optional": "",
+                                                                        "forceInheritDefaultValue": "0",
+                                                                        "name": "sessionTargetAddressType",
+                                                                        "level": "Box",
+                                                                        "itemAliasName": "",
+                                                                        "enumerateValues": "ipv4,dns",
+                                                                        "supportArray": "false",
+                                                                        "jsonSchema": "",
+                                                                        "attributes": [],
+                                                                        "type": "Enumerate(single choose support)"
+                                                                }
+                                                        ],
+                                                        "type": "tag"
+                                                },
+                                                {
+                                                        "forOperations": 1,
+                                                        "description": "",
+                                                        "exampleValue": "",
+                                                        "optional": "",
+                                                        "forceInheritDefaultValue": "0",
+                                                        "name": "Dialpeer_440000002",
+                                                        "level": "Box",
+                                                        "itemAliasName": "",
+                                                        "enumerateValues": "",
+                                                        "supportArray": "false",
+                                                        "jsonSchema": "",
+                                                        "attributes": [
+                                                                {
+                                                                        "forOperations": 1,
+                                                                        "description": "",
+                                                                        "exampleValue": "10.224.99.131",
+                                                                        "optional": "",
+                                                                        "forceInheritDefaultValue": "0",
+                                                                        "name": "sessionTargetNetworkId",
+                                                                        "level": "Box",
+                                                                        "itemAliasName": "",
+                                                                        "enumerateValues": "",
+                                                                        "supportArray": "false",
+                                                                        "jsonSchema": "",
+                                                                        "attributes": [],
+                                                                        "type": "string"
+                                                                },
+                                                                {
+                                                                        "forOperations": 1,
+                                                                        "description": "",
+                                                                        "exampleValue": "ipv4",
+                                                                        "optional": "",
+                                                                        "forceInheritDefaultValue": "0",
+                                                                        "name": "sessionTargetAddressType",
+                                                                        "level": "Box",
+                                                                        "itemAliasName": "",
+                                                                        "enumerateValues": "ipv4,dns",
+                                                                        "supportArray": "false",
+                                                                        "jsonSchema": "",
+                                                                        "attributes": [],
+                                                                        "type": "Enumerate(single choose support)"
+                                                                },
+                                                                {
+                                                                        "forOperations": 1,
+                                                                        "description": "",
+                                                                        "exampleValue": "icwbxccx-fa1.prv.qa.webex.com",
+                                                                        "optional": "",
+                                                                        "forceInheritDefaultValue": "0",
+                                                                        "name": "outboundProxynetworkId",
+                                                                        "level": "Box",
+                                                                        "itemAliasName": "",
+                                                                        "enumerateValues": "",
+                                                                        "supportArray": "false",
+                                                                        "jsonSchema": "",
+                                                                        "attributes": [],
+                                                                        "type": "string"
+                                                                },
+                                                                {
+                                                                        "forOperations": 1,
+                                                                        "description": "",
+                                                                        "exampleValue": "dns",
+                                                                        "optional": "",
+                                                                        "forceInheritDefaultValue": "0",
+                                                                        "name": "outboundProxyaddressType",
+                                                                        "level": "Box",
+                                                                        "itemAliasName": "",
+                                                                        "enumerateValues": "ipv4,dns",
+                                                                        "supportArray": "false",
+                                                                        "jsonSchema": "",
+                                                                        "attributes": [],
+                                                                        "type": "Enumerate(single choose support)"
+                                                                }
+                                                        ],
+                                                        "type": "tag"
+                                                },
+                                                {
+                                                        "forOperations": 1,
+                                                        "description": "",
+                                                        "exampleValue": "",
+                                                        "optional": "",
+                                                        "forceInheritDefaultValue": "0",
+                                                        "name": "Dialpeer_410000002",
+                                                        "level": "Box",
+                                                        "itemAliasName": "",
+                                                        "enumerateValues": "",
+                                                        "supportArray": "false",
+                                                        "jsonSchema": "",
+                                                        "attributes": [
+                                                                {
+                                                                        "forOperations": 1,
+                                                                        "description": "",
+                                                                        "exampleValue": "10.224.99.131",
+                                                                        "optional": "",
+                                                                        "forceInheritDefaultValue": "0",
+                                                                        "name": "sessionTargetNetworkId",
+                                                                        "level": "Box",
+                                                                        "itemAliasName": "",
+                                                                        "enumerateValues": "",
+                                                                        "supportArray": "false",
+                                                                        "jsonSchema": "",
+                                                                        "attributes": [],
+                                                                        "type": "string"
+                                                                },
+                                                                {
+                                                                        "forOperations": 1,
+                                                                        "description": "",
+                                                                        "exampleValue": "ipv4",
+                                                                        "optional": "",
+                                                                        "forceInheritDefaultValue": "0",
+                                                                        "name": "sessionTargetAddressType",
+                                                                        "level": "Box",
+                                                                        "itemAliasName": "",
+                                                                        "enumerateValues": "ipv4,dns",
+                                                                        "supportArray": "false",
+                                                                        "jsonSchema": "",
+                                                                        "attributes": [],
+                                                                        "type": "Enumerate(single choose support)"
+                                                                },
+                                                                {
+                                                                        "forOperations": 1,
+                                                                        "description": "",
+                                                                        "exampleValue": "icwbxccx-fa1.prv.qa.webex.com",
+                                                                        "optional": "",
+                                                                        "forceInheritDefaultValue": "0",
+                                                                        "name": "outboundProxynetworkId",
+                                                                        "level": "Box",
+                                                                        "itemAliasName": "",
+                                                                        "enumerateValues": "",
+                                                                        "supportArray": "false",
+                                                                        "jsonSchema": "",
+                                                                        "attributes": [],
+                                                                        "type": "string"
+                                                                },
+                                                                {
+                                                                        "forOperations": 1,
+                                                                        "description": "",
+                                                                        "exampleValue": "dns",
+                                                                        "optional": "",
+                                                                        "forceInheritDefaultValue": "0",
+                                                                        "name": "outboundProxyaddressType",
+                                                                        "level": "Box",
+                                                                        "itemAliasName": "",
+                                                                        "enumerateValues": "ipv4,dns",
+                                                                        "supportArray": "false",
+                                                                        "jsonSchema": "",
+                                                                        "attributes": [],
+                                                                        "type": "Enumerate(single choose support)"
+                                                                }
+                                                        ],
+                                                        "type": "tag"
+                                                }
+                                        ],
+                                        "type": "tag"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "sj|ta|am|ln|sg|jp|sy|jp2",
+                                        "exampleValue": "sj",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "DC",
+                                        "level": "Data Center",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "sj,ta,am,ln,sg,jp,sy,jp2",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "Enumerate(single choose support)"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "amer|emea|apac|anz",
+                                        "exampleValue": "amer",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "Region",
+                                        "level": "Data Center",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "amer,emea,apac,anz",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "Enumerate(single choose support)"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "qa|ats|bts|prod",
+                                        "exampleValue": "ats",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "Deployment",
+                                        "level": "Data Center",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "qa,ats,bts,prod",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "Enumerate(single choose support)"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "beechtest.qa.prv.webex.com",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "hostname",
+                                        "level": "Box",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "string"
+                                }
+                        ],
+                        "type": "tag"
+                },
+                {
+                        "forOperations": 1,
+                        "description": "",
+                        "exampleValue": "",
+                        "optional": "",
+                        "forceInheritDefaultValue": "0",
+                        "name": "Network",
+                        "level": "Pool",
+                        "itemAliasName": "",
+                        "enumerateValues": "",
+                        "supportArray": "false",
+                        "jsonSchema": "",
+                        "attributes": [
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "66.114.162.65",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "DefaultGWPublic",
+                                        "level": "Box",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "string"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "10.252.69.1",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "DefaultGWPrivate",
+                                        "level": "Pool",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "string"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "10.0.0.0/8",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "StaticRouteSubnet",
+                                        "level": "Pool",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "string"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "255.255.255.240",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "SubnetMaskPublic",
+                                        "level": "Box",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "string"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "false",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "setUpNetworking",
+                                        "level": "Pool",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "boolean"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "ens192",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "interface1",
+                                        "level": "Pool",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "ens192,eth0",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "string"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "ens224",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "interface2",
+                                        "level": "Pool",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "ens224,eth1",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "string"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "66.114.162.67",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "PublicVIP",
+                                        "level": "Box",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "string"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "66.114.162.64",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "NetworkPublic",
+                                        "level": "Pool",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "string"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "10.252.69.0",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "NetworkPrivate",
+                                        "level": "Pool",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "string"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "10.0.0.101",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "NonRoutableIP",
+                                        "level": "Box",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "string"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "10.2.23.23",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "PrivateVIP",
+                                        "level": "Box",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "string"
+                                }
+                        ],
+                        "type": "tag"
+                },
+                {
+                        "forOperations": 1,
+                        "description": "",
+                        "exampleValue": "",
+                        "optional": "",
+                        "forceInheritDefaultValue": "0",
+                        "name": "MAV",
+                        "level": "Data Center",
+                        "itemAliasName": "",
+                        "enumerateValues": "",
+                        "supportArray": "false",
+                        "jsonSchema": "",
+                        "attributes": [
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "true",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "setUpMav",
+                                        "level": "Data Center",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "boolean"
+                                }
+                        ],
+                        "type": "tag"
+                },
+                {
+                        "forOperations": 1,
+                        "description": "",
+                        "exampleValue": "",
+                        "optional": "",
+                        "forceInheritDefaultValue": "0",
+                        "name": "Certs",
+                        "level": "Box",
+                        "itemAliasName": "",
+                        "enumerateValues": "",
+                        "supportArray": "false",
+                        "jsonSchema": "",
+                        "attributes": [
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "Paste your full private cert here",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "PrivateKey",
+                                        "level": "Box",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "textarea"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "Paste your full leaf and intermediate public certs here",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "PublicKey",
+                                        "level": "Box",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "textarea"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "false",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "enableQACerts",
+                                        "level": "Pool",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "boolean"
+                                }
+                        ],
+                        "type": "tag"
+                },
+                {
+                        "forOperations": 1,
+                        "description": "",
+                        "exampleValue": "",
+                        "optional": "",
+                        "forceInheritDefaultValue": "0",
+                        "name": "oAuthCItoUse",
+                        "level": "Pool",
+                        "itemAliasName": "",
+                        "enumerateValues": "",
+                        "supportArray": "false",
+                        "jsonSchema": "",
+                        "attributes": [
+                                {
+                                        "forOperations": 1,
+                                        "description": "bts|prod",
+                                        "exampleValue": "bts",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "Client",
+                                        "level": "Pool",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "bts,prod",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "Enumerate(single choose support)"
+                                },
+                                {
+                                        "forOperations": 1,
+                                        "description": "bts|prod",
+                                        "exampleValue": "bts",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "Server",
+                                        "level": "Pool",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "bts,prod",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "Enumerate(single choose support)"
+                                }
+                        ],
+                        "type": "tag"
+                },
+                {
+                        "forOperations": 1,
+                        "description": "",
+                        "exampleValue": "",
+                        "optional": "",
+                        "forceInheritDefaultValue": "0",
+                        "name": "Alarms",
+                        "level": "Data Center",
+                        "itemAliasName": "",
+                        "enumerateValues": "",
+                        "supportArray": "false",
+                        "jsonSchema": "",
+                        "attributes": [
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "true",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "overrideSNMPtoLocalHost",
+                                        "level": "Data Center",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "boolean"
+                                }
+                        ],
+                        "type": "tag"
+                },
+                {
+                        "forOperations": 1,
+                        "description": "",
+                        "exampleValue": "",
+                        "optional": "",
+                        "forceInheritDefaultValue": "0",
+                        "name": "security",
+                        "level": "Pool",
+                        "itemAliasName": "",
+                        "enumerateValues": "",
+                        "supportArray": "false",
+                        "jsonSchema": "",
+                        "attributes": [
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "keystorePassPhrase",
+                                        "level": "Pool",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "password"
+                                }
+                        ],
+                        "type": "tag"
+                },
+                {
+                        "forOperations": 1,
+                        "description": "",
+                        "exampleValue": "",
+                        "optional": "",
+                        "forceInheritDefaultValue": "0",
+                        "name": "security",
+                        "level": "Pool",
+                        "itemAliasName": "",
+                        "enumerateValues": "",
+                        "supportArray": "false",
+                        "jsonSchema": "",
+                        "attributes": [
+                                {
+                                        "forOperations": 1,
+                                        "description": "",
+                                        "exampleValue": "",
+                                        "optional": "",
+                                        "forceInheritDefaultValue": "0",
+                                        "name": "beechapiPassPhrase",
+                                        "level": "Pool",
+                                        "itemAliasName": "",
+                                        "enumerateValues": "",
+                                        "supportArray": "false",
+                                        "jsonSchema": "",
+                                        "attributes": [],
+                                        "type": "password"
+                                }
+                        ],
+                        "type": "tag"
+                }
+        ],
+        "boxType": [
+                {
+                        "hostNaming": {
+                                "prefixForGSB": "false",
+                                "poolType": "be",
+                                "serverType": "bch"
+                        },
+                        "name": "bchsvr",
+                        "ocpParameters": "\"\"",
+                        "serverType": "",
+                        "subServices": [
+                                "application",
+                                "dependency",
+                                "logStashAgent",
+                                "networking",
+                                "hacks",
+                                "certs",
+                                "tools"
+                        ],
+                        "fullUpgrade": 1
+                }
+        ],
+        "subServices": [
+                {
+                        "name": "application",
+                        "fileTemplates": [
+                                {
+                                        "targetNamePrefix": "cube_linux",
+                                        "name": "cube_linux.json",
+                                        "needRender": "true",
+                                        "groupOwner": "beech-api",
+                                        "fileType": "text",
+                                        "userOwner": "beech-api",
+                                        "targetPath": "/etc",
+                                        "targetNameSuffix": ".json",
+                                        "mode": "660"
+                                },
+                                {
+                                        "targetNamePrefix": "common",
+                                        "name": "common.sh",
+                                        "needRender": "true",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/opt/beech_deploy/bin",
+                                        "targetNameSuffix": ".sh",
+                                        "mode": "740"
+                                },
+                                {
+                                        "targetNamePrefix": "edge-tomcat",
+                                        "name": "edge-tomcat.service",
+                                        "needRender": "true",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/etc/systemd/system",
+                                        "targetNameSuffix": ".service",
+                                        "mode": "644"
+                                },
+                                {
+                                        "targetNamePrefix": "server",
+                                        "name": "server.xml",
+                                        "needRender": "true",
+                                        "groupOwner": "tomcat",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/tmp",
+                                        "targetNameSuffix": ".xml",
+                                        "mode": "440"
+                                },
+                                {
+                                        "targetNamePrefix": "application_configuration_post",
+                                        "name": "application_configuration_post.sh",
+                                        "needRender": "true",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/opt/beech_deploy/bin",
+                                        "targetNameSuffix": ".sh",
+                                        "mode": "740"
+                                },
+                                {
+                                        "targetNamePrefix": "uch",
+                                        "name": "uch.password",
+                                        "needRender": "true",
+                                        "groupOwner": "beech-api",
+                                        "fileType": "text",
+                                        "userOwner": "beech-api",
+                                        "targetPath": "/etc/beechuch",
+                                        "targetNameSuffix": ".password",
+                                        "mode": "440"
+                                },
+                                {
+                                        "targetNamePrefix": "beech_cmc_actions_api",
+                                        "name": "beech_cmc_actions_api.py",
+                                        "needRender": "true",
+                                        "groupOwner": "beech-api",
+                                        "fileType": "text",
+                                        "userOwner": "beech-api",
+                                        "targetPath": "/opt/beech_deploy/scripts",
+                                        "targetNameSuffix": ".py",
+                                        "mode": "440"
+                                }
+                        ],
+                        "manageCommands": [
+                                {
+                                        "stopCommand": "export PATH=$PATH:/sbin && beech-cmd.py -k",
+                                        "name": "beechCommands",
+                                        "startCommandPriority": 1,
+                                        "stopCommandPriority": 1,
+                                        "checkCommand": "export PATH=$PATH:/sbin && beech-cmd.py -q",
+                                        "startCommand": "export PATH=$PATH:/sbin && beech-cmd.py -s"
+                                }
+                        ],
+                        "maintain": [],
+                        "scripts": [
+                                {
+                                        "postScript": "",
+                                        "preScript": "",
+                                        "type": "Installation"
+                                },
+                                {
+                                        "postScript": "beech-cmd.py --setup_mediaengine\nbeech-cmd.py --enable_coredump",
+                                        "preScript": "",
+                                        "type": "Configuration"
+                                }
+                        ],
+                        "packages": [
+                                {
+                                        "packageType": "",
+                                        "name": "beechhuron",
+                                        "repoCatalog": "beech/centos7_64",
+                                        "priority": 50,
+                                        "postScript": "",
+                                        "version": "v0.1.158",
+                                        "build": "1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "edge-common",
+                                        "repoCatalog": "beech/centos7_64",
+                                        "priority": 55,
+                                        "postScript": "",
+                                        "version": "v0.1.158",
+                                        "build": "1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "beech-libs",
+                                        "repoCatalog": "beech/centos7_64",
+                                        "priority": 60,
+                                        "postScript": "",
+                                        "version": "v0.1.158",
+                                        "build": "1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "beechapi",
+                                        "repoCatalog": "beech/centos7_64",
+                                        "priority": 70,
+                                        "postScript": "",
+                                        "version": "v0.1.158",
+                                        "build": "1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "cube_linux",
+                                        "repoCatalog": "beech/centos7_64",
+                                        "priority": 85,
+                                        "postScript": "",
+                                        "version": "v0.1.158",
+                                        "build": "1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "mediaengine",
+                                        "repoCatalog": "beech/centos7_64",
+                                        "priority": 65,
+                                        "postScript": "",
+                                        "version": "v0.1.158",
+                                        "build": "1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "edge_oauth",
+                                        "repoCatalog": "beech/centos7_64",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "v0.1.158",
+                                        "build": "1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "commonconfig",
+                                        "repoCatalog": "beech/centos7_64",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "v0.1.158",
+                                        "build": "1"
+                                }
+                        ]
+                },
+                {
+                        "name": "dependency",
+                        "fileTemplates": [],
+                        "manageCommands": [],
+                        "maintain": [],
+                        "scripts": [
+                                {
+                                        "postScript": "",
+                                        "preScript": "#remove 32 bit version of xmlsec1\nif rpm -qa | grep xmlsec1 | grep i686; then yum remove xmlsec1 -y; yum install open-vm-tools -y; fi\n# weird multilib problem where 32bit old version of libpng is installed\n# yum remove libpng-1.5.13-7.el7_2.i686 -y\nyum remove c-ares -y",
+                                        "type": "Installation"
+                                },
+                                {
+                                        "postScript": "",
+                                        "preScript": "",
+                                        "type": "Configuration"
+                                }
+                        ],
+                        "packages": [
+                                {
+                                        "packageType": "",
+                                        "name": "apr",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 20,
+                                        "postScript": "",
+                                        "version": "1.4.8",
+                                        "build": "3.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "apr-util",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 20,
+                                        "postScript": "",
+                                        "version": "1.5.2",
+                                        "build": "6.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "boost-filesystem",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.53.0",
+                                        "build": "25.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "boost-regex",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.53.0",
+                                        "build": "25.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "boost-system",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.53.0",
+                                        "build": "25.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "copy-jdk-configs",
+                                        "repoCatalog": "cloudproxy/centos7_noarch",
+                                        "priority": 5,
+                                        "postScript": "",
+                                        "version": "2.2",
+                                        "build": "5.el7_4"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "dnsmasq",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 30,
+                                        "postScript": "",
+                                        "version": "2.78",
+                                        "build": "1.el7.centos"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "edge-tomcat",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 30,
+                                        "postScript": "",
+                                        "version": "8.0.53",
+                                        "build": "1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "erlang",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 20,
+                                        "postScript": "",
+                                        "version": "19.1.6",
+                                        "build": "1.el7.centos"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "fontpackages-filesystem",
+                                        "repoCatalog": "cloudproxy/centos7_noarch",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.44",
+                                        "build": "8.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "giflib",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "4.1.6",
+                                        "build": "9.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "java-1.8.0-openjdk",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 20,
+                                        "postScript": "",
+                                        "version": "1.8.0.191.b12",
+                                        "build": "0.el7_5"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "java-1.8.0-openjdk-headless",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.8.0.191.b12",
+                                        "build": "0.el7_5"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "javapackages-tools",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 20,
+                                        "postScript": "",
+                                        "version": "3.4.1",
+                                        "build": "11.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "libICE",
+                                        "repoCatalog": "ocp/centos7.4_server_rpms",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.0.9",
+                                        "build": "9.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "libSM",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.2.2",
+                                        "build": "2.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "libX11",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.6.5",
+                                        "build": "1.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "libX11-common",
+                                        "repoCatalog": "cloudproxy/centos7_noarch",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.6.5",
+                                        "build": "1.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "libXau",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.0.8",
+                                        "build": "2.1.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "libXcomposite",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 5,
+                                        "postScript": "",
+                                        "version": "0.4.4",
+                                        "build": "4.1.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "libXext",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.3.3",
+                                        "build": "3.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "libXfont",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.5.2",
+                                        "build": "1.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "libXi",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.7.9",
+                                        "build": "1.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "libXrender",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "0.9.10",
+                                        "build": "1.el7.centos"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "libXtst",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.2.3",
+                                        "build": "1.el7.centos"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "libfontenc",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.1.3",
+                                        "build": "3.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "libjpeg-turbo",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 5,
+                                        "postScript": "",
+                                        "version": "1.2.90",
+                                        "build": "5.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "libxcb",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.12",
+                                        "build": "1.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "libxslt",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.1.28",
+                                        "build": "5.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "lksctp-tools",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 20,
+                                        "postScript": "",
+                                        "version": "1.0.17",
+                                        "build": "2.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "log4cxx-beech",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 20,
+                                        "postScript": "",
+                                        "version": "0.10.0",
+                                        "build": "2"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "pika",
+                                        "repoCatalog": "cloudproxy/centos7_noarch",
+                                        "priority": 20,
+                                        "postScript": "",
+                                        "version": "0.10.0p0",
+                                        "build": "1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "protobuf",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "3.0.0",
+                                        "build": "1.el7.centos"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "protobuf-c",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 20,
+                                        "postScript": "",
+                                        "version": "1.1.1",
+                                        "build": "1.el7.centos"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-enum34",
+                                        "repoCatalog": "cloudproxy/centos7_noarch",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.0.4",
+                                        "build": "1.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-javapackages",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "3.4.1",
+                                        "build": "11.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-lxml",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "3.2.1",
+                                        "build": "4.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-protobuf",
+                                        "repoCatalog": "cloudproxy/centos7_noarch",
+                                        "priority": 30,
+                                        "postScript": "",
+                                        "version": "3.0.0a3",
+                                        "build": "1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-sdnotify",
+                                        "repoCatalog": "cloudproxy/centos7_noarch",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "0.3.0",
+                                        "build": "0"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-twisted-core",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "15.2.1",
+                                        "build": "1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "rabbitmq-c-beech",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "0.6.0",
+                                        "build": "1.el7.centos"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "rabbitmq-server",
+                                        "repoCatalog": "cloudproxy/centos7_noarch",
+                                        "priority": 30,
+                                        "postScript": "",
+                                        "version": "3.6.9",
+                                        "build": "1.el7.centos"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "socat",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "1.7.2.2",
+                                        "build": "5.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "ttmkfdir",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "3.0.9",
+                                        "build": "42.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "tzdata-java",
+                                        "repoCatalog": "cloudproxy/centos7_noarch",
+                                        "priority": 5,
+                                        "postScript": "",
+                                        "version": "2016j",
+                                        "build": "1.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "xmlrpc-c",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 5,
+                                        "postScript": "",
+                                        "version": "1.32.5",
+                                        "build": "1905.svn2451.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "xmlrpc-c-c++",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 5,
+                                        "postScript": "",
+                                        "version": "1.32.5",
+                                        "build": "1905.svn2451.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "xorg-x11-font-utils",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "7.5",
+                                        "build": "20.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "xorg-x11-fonts-Type1",
+                                        "repoCatalog": "cloudproxy/centos7_noarch",
+                                        "priority": 10,
+                                        "postScript": "",
+                                        "version": "7.5",
+                                        "build": "9.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-psutil",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "2.2.1",
+                                        "build": "1.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "xmlsec1",
+                                        "repoCatalog": "cloudproxy/centos7_64",
+                                        "priority": 5,
+                                        "postScript": "",
+                                        "version": "1.2.20",
+                                        "build": "7.el7_4"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-werkzeug",
+                                        "repoCatalog": "beech/centos7_noarch",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "0.9.1",
+                                        "build": "2.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-tornado",
+                                        "repoCatalog": "beech/centos7_noarch",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "2.2.1",
+                                        "build": "8.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "PyYAML",
+                                        "repoCatalog": "beech/centos7_64",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "3.10",
+                                        "build": "11.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python2-jsonschema",
+                                        "repoCatalog": "beech/centos7_noarch",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "2.5.1",
+                                        "build": "3.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-six",
+                                        "repoCatalog": "beech/centos7_noarch",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "1.9.0",
+                                        "build": "2.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-chardet",
+                                        "repoCatalog": "beech/centos7_noarch",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "2.2.1",
+                                        "build": "1.el7_1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-ordereddict",
+                                        "repoCatalog": "beech/centos7_noarch",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "1.1",
+                                        "build": "6.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python2-pyasn1",
+                                        "repoCatalog": "beech/centos7_noarch",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "0.1.9",
+                                        "build": "7.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python2-pyasn1-modules",
+                                        "repoCatalog": "beech/centos7_noarch",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "0.1.9",
+                                        "build": "7.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-urllib3",
+                                        "repoCatalog": "beech/centos7_noarch",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "1.10.2",
+                                        "build": "5.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-zope-interface",
+                                        "repoCatalog": "beech/centos7_64",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "4.0.5",
+                                        "build": "4.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "klein",
+                                        "repoCatalog": "beech/centos7_noarch",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "15.3.1",
+                                        "build": "1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-twisted-web",
+                                        "repoCatalog": "beech/centos7_64",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "15.2.1",
+                                        "build": "1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-twisted-core",
+                                        "repoCatalog": "beech/centos7_64",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "15.2.1",
+                                        "build": "1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "attrs",
+                                        "repoCatalog": "beech/centos7_noarch",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "15.2.0",
+                                        "build": "1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "stringencoders",
+                                        "repoCatalog": "beech/centos7_64",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "v3.10.3",
+                                        "build": "1.el7.centos"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python2-mock",
+                                        "repoCatalog": "beech/centos7_noarch",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "1.0.1",
+                                        "build": "9.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-requests",
+                                        "repoCatalog": "beech/centos7_noarch",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "2.6.0",
+                                        "build": "1.el7_1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python2-pip",
+                                        "repoCatalog": "beech/centos7_noarch",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "8.1.2",
+                                        "build": "5.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "python-coverage",
+                                        "repoCatalog": "beech/centos7_64",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "3.6",
+                                        "build": "0.5.b3.el7"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "treq",
+                                        "repoCatalog": "beech/centos7_noarch",
+                                        "priority": 99,
+                                        "postScript": "",
+                                        "version": "15.1.0",
+                                        "build": "1"
+                                },
+                                {
+                                        "packageType": "",
+                                        "name": "c-ares-beech",
+                                        "repoCatalog": "beech/centos7_64",
+                                        "priority": 20,
+                                        "postScript": "",
+                                        "version": "1.10",
+                                        "build": "0"
+                                }
+                        ]
+                },
+                {
+                        "name": "logStashAgent",
+                        "fileTemplates": [
+                                {
+                                        "targetNamePrefix": "filter",
+                                        "name": "filter.conf",
+                                        "needRender": "true",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/etc/logstash/conf.d",
+                                        "targetNameSuffix": ".conf",
+                                        "mode": "640"
+                                },
+                                {
+                                        "targetNamePrefix": "logstashagent",
+                                        "name": "logstashagent.conf",
+                                        "needRender": "true",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/etc/logstash/conf.d",
+                                        "targetNameSuffix": ".conf",
+                                        "mode": "640"
+                                },
+                                {
+                                        "targetNamePrefix": "syslog",
+                                        "name": "syslog",
+                                        "needRender": "false",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/etc/logrotate.d",
+                                        "targetNameSuffix": "",
+                                        "mode": "640"
+                                },
+                                {
+                                        "targetNamePrefix": "tomcat",
+                                        "name": "tomcat.conf",
+                                        "needRender": "false",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/etc/logrotate.d",
+                                        "targetNameSuffix": ".conf",
+                                        "mode": "640"
+                                },
+                                {
+                                        "targetNamePrefix": "logStashAgent-configuration-post",
+                                        "name": "logStashAgent-configuration-post.sh",
+                                        "needRender": "true",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/opt/beech_deploy/bin",
+                                        "targetNameSuffix": ".sh",
+                                        "mode": "740"
+                                }
+                        ],
+                        "manageCommands": [
+                                {
+                                        "stopCommand": "export PATH=$PATH:/sbin && service logstash stop;service logstash force-stop",
+                                        "name": "logstash",
+                                        "startCommandPriority": 1,
+                                        "stopCommandPriority": 1,
+                                        "checkCommand": "export PATH=$PATH:/sbin && service logstash status",
+                                        "startCommand": "export PATH=$PATH:/sbin && service logstash start;sleep 10"
+                                }
+                        ],
+                        "maintain": [],
+                        "scripts": [
+                                {
+                                        "postScript": "",
+                                        "preScript": "",
+                                        "type": "Installation"
+                                },
+                                {
+                                        "postScript": "/opt/beech_deploy/bin/logStashAgent-configuration-post.sh",
+                                        "preScript": "",
+                                        "type": "Configuration"
+                                }
+                        ],
+                        "packages": [
+                                {
+                                        "packageType": "",
+                                        "name": "logstash-agent-all",
+                                        "repoCatalog": "CLAP/centos7.2_64",
+                                        "priority": 11,
+                                        "postScript": "",
+                                        "version": "5.6.2",
+                                        "build": "101"
+                                }
+                        ]
+                },
+                {
+                        "name": "networking",
+                        "fileTemplates": [
+                                {
+                                        "targetNamePrefix": "networking-configuration-post",
+                                        "name": "networking-configuration-post.sh",
+                                        "needRender": "true",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/opt/beech_deploy/bin/",
+                                        "targetNameSuffix": ".sh",
+                                        "mode": "740"
+                                },
+                                {
+                                        "targetNamePrefix": "iptables_setup",
+                                        "name": "iptables_setup.sh",
+                                        "needRender": "true",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/opt/beech_deploy/bin",
+                                        "targetNameSuffix": ".sh",
+                                        "mode": "740"
+                                }
+                        ],
+                        "manageCommands": [],
+                        "maintain": [],
+                        "scripts": [
+                                {
+                                        "postScript": "/opt/beech_deploy/bin/networking-configuration-post.sh",
+                                        "preScript": "",
+                                        "type": "Configuration"
+                                },
+                                {
+                                        "postScript": "",
+                                        "preScript": "",
+                                        "type": "Installation"
+                                }
+                        ],
+                        "packages": []
+                },
+                {
+                        "name": "hacks",
+                        "fileTemplates": [
+                                {
+                                        "targetNamePrefix": "config",
+                                        "name": "selinux-config",
+                                        "needRender": "false",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/etc/selinux",
+                                        "targetNameSuffix": "",
+                                        "mode": "644"
+                                },
+                                {
+                                        "targetNamePrefix": ".svrtype",
+                                        "name": ".svrtype",
+                                        "needRender": "true",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/",
+                                        "targetNameSuffix": "",
+                                        "mode": "644"
+                                },
+                                {
+                                        "targetNamePrefix": "hacks-configuration-post",
+                                        "name": "hacks-configuration-post.sh",
+                                        "needRender": "true",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/opt/beech_deploy/bin/",
+                                        "targetNameSuffix": ".sh",
+                                        "mode": "740"
+                                }
+                        ],
+                        "manageCommands": [],
+                        "maintain": [],
+                        "scripts": [
+                                {
+                                        "postScript": "",
+                                        "preScript": "echo \"*** START hacks -> installation -> pre-script ***\"\nset -x\n\nlogstash_rel_version=$(rpm --queryformat \"%{VERSION}-%{RELEASE}\" -q logstash-agent-all)\n\nif [ $logstash_rel_version == \"2.2.2-1\" ]\nthen\n     yum remove logstash-agent-all -y\nelse\n    echo \"Uninstall of logstashagent is not required\"\nfi",
+                                        "type": "Installation"
+                                },
+                                {
+                                        "postScript": "/opt/beech_deploy/bin/hacks-configuration-post.sh",
+                                        "preScript": "",
+                                        "type": "Configuration"
+                                }
+                        ],
+                        "packages": []
+                },
+                {
+                        "name": "certs",
+                        "fileTemplates": [
+                                {
+                                        "targetNamePrefix": "beech-ca",
+                                        "name": "beech-ca.crt",
+                                        "needRender": "false",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/etc/ssl/certs",
+                                        "targetNameSuffix": ".crt",
+                                        "mode": "444"
+                                },
+                                {
+                                        "targetNamePrefix": "beech-server",
+                                        "name": "beech-server.crt",
+                                        "needRender": "true",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/etc/ssl/certs",
+                                        "targetNameSuffix": ".crt",
+                                        "mode": "644"
+                                },
+                                {
+                                        "targetNamePrefix": "beech-server",
+                                        "name": "beech-server.key",
+                                        "needRender": "true",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/etc/ssl/certs",
+                                        "targetNameSuffix": ".key",
+                                        "mode": "640"
+                                },
+                                {
+                                        "targetNamePrefix": "qa",
+                                        "name": "qa.crt",
+                                        "needRender": "false",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/etc/ssl/certs",
+                                        "targetNameSuffix": ".crt",
+                                        "mode": "640"
+                                },
+                                {
+                                        "targetNamePrefix": "certs-configuration-post",
+                                        "name": "certs-configuration-post.sh",
+                                        "needRender": "true",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/opt/beech_deploy/bin",
+                                        "targetNameSuffix": ".sh",
+                                        "mode": "740"
+                                }
+                        ],
+                        "manageCommands": [],
+                        "maintain": [],
+                        "scripts": [
+                                {
+                                        "postScript": "",
+                                        "preScript": "",
+                                        "type": "Installation"
+                                },
+                                {
+                                        "postScript": "/opt/beech_deploy/bin/certs-configuration-post.sh",
+                                        "preScript": "",
+                                        "type": "Configuration"
+                                }
+                        ],
+                        "packages": []
+                },
+                {
+                        "name": "tools",
+                        "fileTemplates": [
+                                {
+                                        "targetNamePrefix": "slimdm",
+                                        "name": "slimdm.ini",
+                                        "needRender": "true",
+                                        "groupOwner": "slimtty",
+                                        "fileType": "text",
+                                        "userOwner": "slimttyagent",
+                                        "targetPath": "/opt/slim/daemon",
+                                        "targetNameSuffix": ".ini",
+                                        "mode": "640"
+                                },
+                                {
+                                        "targetNamePrefix": "build_info",
+                                        "name": "build_info.txt",
+                                        "needRender": "false",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/var/webex/version",
+                                        "targetNameSuffix": ".txt",
+                                        "mode": "644"
+                                },
+                                {
+                                        "targetNamePrefix": "process",
+                                        "name": "process.conf",
+                                        "needRender": "true",
+                                        "groupOwner": "collectd",
+                                        "fileType": "text",
+                                        "userOwner": "collectd",
+                                        "targetPath": "/opt/collectd/etc/conf.d/",
+                                        "targetNameSuffix": ".conf",
+                                        "mode": "640"
+                                },
+                                {
+                                        "targetNamePrefix": "process",
+                                        "name": "process.local",
+                                        "needRender": "true",
+                                        "groupOwner": "collectd",
+                                        "fileType": "text",
+                                        "userOwner": "collectd",
+                                        "targetPath": "/opt/collectd/etc/conf.d/",
+                                        "targetNameSuffix": ".local",
+                                        "mode": "640"
+                                },
+                                {
+                                        "targetNamePrefix": "tools-configuration-post",
+                                        "name": "tools-configuration-post.sh",
+                                        "needRender": "true",
+                                        "groupOwner": "root",
+                                        "fileType": "text",
+                                        "userOwner": "root",
+                                        "targetPath": "/opt/beech_deploy/bin",
+                                        "targetNameSuffix": ".sh",
+                                        "mode": "740"
+                                }
+                        ],
+                        "manageCommands": [],
+                        "maintain": [],
+                        "scripts": [
+                                {
+                                        "postScript": "",
+                                        "preScript": "",
+                                        "type": "Installation"
+                                },
+                                {
+                                        "postScript": "/opt/beech_deploy/bin/tools-configuration-post.sh",
+                                        "preScript": "",
+                                        "type": "Configuration"
+                                }
+                        ],
+                        "packages": []
+                }
+        ],
+        "externalResources": [
+                {
+                        "category": "generate_client_token",
+                        "resource": "ci",
+                        "name": "generate_client_token_ci",
+                        "parameterValues": "{\"scopes\": \"beech:api_access\", \"clientSecret\": \"e3014f2957698037107041fd691b457017db6e4edc5b31cdd287a933e8c46607\", \"clientId\": \"Cc5a9ddf6f8a1fbf0a326124fe243dd627d244c762100d49b29da5cc89e658237\", \"clientHost\": \"https://idbrokerbts.webex.com\"}",
+                        "method": "POST",
+                        "parameterTemplate": "{\n        \"broker\": \"{{clientHost}}\",\n        \"clientId\": \"{{clientId}}\",\n        \"clientSecret\": \"{{clientSecret}}\",\n        \"scopes\": \"{{scopes}}\"\n}",
+                        "boxTypeNames": "all"
+                }
+        ],
+        "toolServices": [
+                {
+                        "startOrder": 10,
+                        "stopOrder": 10,
+                        "serviceVersion": "4.18",
+                        "buildNo": "0000",
+                        "serviceName": "sdeos",
+                        "packageOrder": 10,
+                        "boxTypes": []
+                },
+                {
+                        "startOrder": 20,
+                        "stopOrder": 20,
+                        "serviceVersion": "4.15",
+                        "buildNo": "0000",
+                        "serviceName": "sdetools",
+                        "packageOrder": 20,
+                        "boxTypes": []
+                }
+        ],
+        "postVerification": [
+                {
+                        "category": "3",
+                        "box_type_name": "bchsvr",
+                        "description": "Query Status",
+                        "level": "1",
+                        "boxType": "48365",
+                        "content": "sudo python /opt/beech_deploy/scripts/beech_cmc_actions_api.py --action status",
+                        "build": 21828,
+                        "timeout": "30",
+                        "level_name": "Server",
+                        "id": "22432"
+                },
+                {
+                        "category": "3",
+                        "box_type_name": "bchsvr",
+                        "description": "Suspend",
+                        "level": "1",
+                        "boxType": "48365",
+                        "content": "sudo python /opt/beech_deploy/scripts/beech_cmc_actions_api.py --action suspend",
+                        "build": 21828,
+                        "timeout": "30",
+                        "level_name": "Server",
+                        "id": "22433"
+                },
+                {
+                        "category": "3",
+                        "box_type_name": "bchsvr",
+                        "description": "ResumeForTest",
+                        "level": "1",
+                        "boxType": "48365",
+                        "content": "sudo python /opt/beech_deploy/scripts/beech_cmc_actions_api.py --action resumefortest",
+                        "build": 21828,
+                        "timeout": "30",
+                        "level_name": "Server",
+                        "id": "22434"
+                },
+                {
+                        "category": "3",
+                        "box_type_name": "bchsvr",
+                        "description": "Resume",
+                        "level": "1",
+                        "boxType": "48365",
+                        "content": "sudo python /opt/beech_deploy/scripts/beech_cmc_actions_api.py --action resume",
+                        "build": 21828,
+                        "timeout": "30",
+                        "level_name": "Server",
+                        "id": "22435"
+                },
+                {
+                        "category": "3",
+                        "box_type_name": "bchsvr",
+                        "description": "Bleed",
+                        "level": "1",
+                        "boxType": "48365",
+                        "content": "sudo python /opt/beech_deploy/scripts/beech_cmc_actions_api.py --action bleed",
+                        "build": 21828,
+                        "timeout": "7300",
+                        "level_name": "Server",
+                        "id": "22436"
+                },
+                {
+                        "category": "3",
+                        "box_type_name": "bchsvr",
+                        "description": "BleedWait",
+                        "level": "1",
+                        "boxType": "48365",
+                        "content": "sudo python /opt/beech_deploy/scripts/beech_cmc_actions_api.py --action bleedWait",
+                        "build": 21828,
+                        "timeout": "7300",
+                        "level_name": "Server",
+                        "id": "22436"
+                }
+        ]
+        ,
+        "dockerTemplates": [],
+        "kubernetesTemplates": [],
+        "templateMacro": []
+}
